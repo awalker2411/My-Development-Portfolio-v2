@@ -1,7 +1,8 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
+import { Nav } from 'react-bootstrap';
 
-function topNav(){
+export default function TopNav(){
     return(
         <>
             <Navbar bg="dark" variant="dark">
@@ -18,8 +19,9 @@ function topNav(){
                     </Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link href="#home">About Me</Nav.Link>
-                        <Nav.Link href="#features">Portfolio</Nav.Link>
-                        <Nav.Link href="#pricing">Contact Me</Nav.Link>
+                        <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+                        <Nav.Link href="#contact">Contact Me</Nav.Link>
+                        <Nav.Link href="#resume">Resume</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
