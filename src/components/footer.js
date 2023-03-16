@@ -4,7 +4,7 @@ import logo from '../assets/logo.png'
 
 export default function Footer() {
     return (
-        <Navbar bg="dark" variant="dark" className="justify-content-center">
+        <Navbar fixed="bottom" bg="dark" variant="dark" className="justify-content-center">
             <Container>
                 <Navbar.Brand href="#home">
                     <img

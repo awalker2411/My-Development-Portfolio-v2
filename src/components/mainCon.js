@@ -1,14 +1,12 @@
-import AboutMe from './pages/about'
 import TopNav from "./navbar"
-import ContactMe from './pages/contact'
 import Footer from './footer'
+import { Outlet } from 'react-router-dom'
 
 export default function MainCon(){
     return(
         <>
             <TopNav />
-            <AboutMe />
-            <ContactMe />
+            <Outlet/>
             <Footer/>
         </>
     )
