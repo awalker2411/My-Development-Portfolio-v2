@@ -10,7 +10,7 @@ export default function TopNav(){
         <>
             <Navbar bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand href="#home">
+                    <Navbar.Brand href="/">
                         <img
                             alt=""
                             src={logo}
@@ -21,10 +21,10 @@ export default function TopNav(){
                         Anthony Walker
                     </Navbar.Brand>
                     <Nav className="me-auto">
-                        <Link to="/">About Me</Link>
-                        <Link to="/portfolio">Portfolio</Link>
-                        <Link to="/contact">Contact Me</Link>
-                        <Link href={Resume} target='_blank'>Resume</Link>
+                        <Link className="text-bg-primary p-3" to="/">About Me</Link>
+                        <Link className="text-bg-primary p-3" to="/portfolio">Portfolio</Link>
+                        <Link className="text-bg-primary p-3" to="/contact">Contact Me</Link>
+                        <Nav.Link className="text-bg-primary p-3" href={Resume} target='_blank'>Resume</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
