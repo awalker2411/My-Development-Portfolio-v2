@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/My-Development-Portfolio-v2/static/css/main.4b985a42.css",
+    "main.js": "/My-Development-Portfolio-v2/static/js/main.7c0f071a.js",
+    "static/media/bg.png": "/My-Development-Portfolio-v2/static/media/bg.c2f2a8ef0b5300add0d7.png",
+    "static/media/LotrQuiz1.PNG": "/My-Development-Portfolio-v2/static/media/LotrQuiz1.1ade2bbe1af1e3162f6f.PNG",
+    "static/media/anthonyWalker.png": "/My-Development-Portfolio-v2/static/media/anthonyWalker.506618b6ef6ac1b4378f.png",
+    "static/media/DK.png": "/My-Development-Portfolio-v2/static/media/DK.5918804b2e757bd65630.png",
+    "static/media/Resume.pdf": "/My-Development-Portfolio-v2/static/media/Resume.1e5c5b4625894a926c4e.pdf",
+    "static/media/logo.png": "/My-Development-Portfolio-v2/static/media/logo.d026e66e2bfbeef88f24.png",
+    "static/media/phone.gif": "/My-Development-Portfolio-v2/static/media/phone.59552a96927a5992e3ad.gif",
+    "static/media/book.jpg": "/My-Development-Portfolio-v2/static/media/book.19cb1f0d80a741eaec9d.jpg",
+    "static/media/offnon.jpg": "/My-Development-Portfolio-v2/static/media/offnon.d3534ba9be24fb2a886b.jpg",
+    "static/media/jate.ico": "/My-Development-Portfolio-v2/static/media/jate.bcc566818a7ff28501fa.ico",
+    "index.html": "/My-Development-Portfolio-v2/index.html",
+    "main.4b985a42.css.map": "/My-Development-Portfolio-v2/static/css/main.4b985a42.css.map",
+    "main.7c0f071a.js.map": "/My-Development-Portfolio-v2/static/js/main.7c0f071a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b985a42.css",
+    "static/js/main.7c0f071a.js"
+  ]
+}
