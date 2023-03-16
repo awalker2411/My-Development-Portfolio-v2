@@ -1,5 +1,5 @@
+import AboutMe from './pages/about'
 import TopNav from "./navbar"
-import AboutMe from "./pages/about"
 
 export default function MainCon(){
     return(
