@@ -3,6 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Nav } from 'react-bootstrap';
 import logo from '../assets/logo.png'
 import Resume from '../assets/Resume.pdf'
+import { Link } from 'react-router-dom';
 
 export default function TopNav(){
     return(
@@ -20,10 +21,10 @@ export default function TopNav(){
                         Anthony Walker
                     </Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav.Link href="#home">About Me</Nav.Link>
-                        <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-                        <Nav.Link href="#contact">Contact Me</Nav.Link>
-                        <Nav.Link href={Resume} target='_blank'>Resume</Nav.Link>
+                        <Link to="/">About Me</Link>
+                        <Link to="/portfolio">Portfolio</Link>
+                        <Link to="/contact">Contact Me</Link>
+                        <Link href={Resume} target='_blank'>Resume</Link>
                     </Nav>
                 </Container>
             </Navbar>
