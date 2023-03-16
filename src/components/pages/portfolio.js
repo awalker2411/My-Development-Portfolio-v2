@@ -1,9 +1,10 @@
-import LotR from '../../assets/LotrQuiz1.png'
+import LotR from '../../assets/LotrQuiz1.PNG'
 import DK from '../../assets/DK.png'
 import SH from "../../assets/sudokuHaven.png"
 import Book from '../../assets/book.jpg'
 import Jate from '../../assets/jate.ico'
 import OffnOn from '../../assets/offnon.jpg'
+import Applications from './applications'
 
 export default function Portfolio(){
     const applications = [
@@ -58,6 +59,9 @@ export default function Portfolio(){
     ]
 
     return(
-
+        <div className="container-fluid grid">
+            <h1>My Applications</h1>
+            <Applications applications={applications}/>
+        </div>
     )
 }
