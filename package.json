@@ -1,7 +1,7 @@
 {
   "name": "development-portfolio",
-  "homepage": "https://awalker2411.github.io/My-Development-Portfolio-v2/",
   "version": "0.1.0",
+  "homepage": "https://awalker2411.github.io/My-Development-Portfolio-v2/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",
