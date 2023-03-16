@@ -14,7 +14,7 @@ export default function AboutMe() {
             <div style={{display: 'flex', justifyContent: 'center'}}>
                 <Card style={{display: 'flex', justifyContent: 'center', backgroundColor: "black", color: 'white', marginTop: 100}} sx={{ maxWidth: 700 }}>
                     <Box sx={{ p: 2 }}>
-                        <h2 className='text-center'>About Me</h2>
+                        <h2 className='text-center fs-1'>About Me</h2>
                         <Typography className='text-center' style={{marginTop: 20}}>
                             Good day! My name is Anthony Walker and I am an aspiring web developer! I'm 27 years old and located in Livonia, Michigan. While having taken some college courses, I struggled to find a career path that was suitable for me. From education courses, to engineering, to accounting; nothing seemed to stick. However, over the past couple of years (Thanks Covid!), I've had plenty of time to reevalute my interests and passions during lockdowns. 
                             <br />
